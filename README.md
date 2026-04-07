@@ -27,4 +27,5 @@ You should now be able to emerge things from the overlay.
 
 ### A Better Overlay
 [Agvxov's overlay](https://bis64wqhh3louusbd45iyj76kmn4rzw5ysawyan5bkxwyzihj67c5lid.onion/anon/agvxov-overlay.git) contains more packages, however it has an outdated version of `dev-build/bake`.
-I used this Agvxov's overlay as a template to build upon.
+
+I used Agvxov's overlay as a template to build upon, thanks to him.
