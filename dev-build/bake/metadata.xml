@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>emil@chud.cyou</email>
+    <name>Emil Williams</name>
+  </maintainer>
+  <longdescription lang="en">
+	Bake is a simple tool meant  to execute embedded shell commands within
+	any file.   It executes with /bin/sh  the command after a  "@BAKE " to
+	the end of the line (a UNIX newline: '\n') or to the first instance of
+	@STOP.
+  </longdescription>
+</pkgmetadata>
