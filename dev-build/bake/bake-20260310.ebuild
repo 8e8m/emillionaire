@@ -20,7 +20,7 @@ DEPEND="sys-devel/flex"
 src_install() {
     TARGET="${D}/usr" sh install.sh
 
-    if use man; then
-        doman bake.1
-    fi
+    # if use man; then
+    #     doman bake.1
+    # fi
 }
