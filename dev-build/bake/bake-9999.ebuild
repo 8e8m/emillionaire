@@ -4,13 +4,13 @@
 EAPI=8
 inherit git-r3
 
-DESCRIPTION="A tool to run embedded scripts."
+DESCRIPTION="Run embedded scripts."
 HOMEPAGE="https://github.com/8e8m/bake"
 EGIT_REPO_URI="https://github.com/8e8m/bake.git"
 
 LICENSE="CC0-1.0"
 SLOT="0"
-IUSE="man"
+IUSE="+man"
 BDEPEND="sys-devel/flex"
 
 if [[ ${PV} != 9999 ]]; then

@@ -2,16 +2,15 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
 inherit git-r3
 
-DESCRIPTION="Content-addressed, suffix-chaining build system written in Tcl"
+DESCRIPTION="Suffix-oriented TCL build system."
 HOMEPAGE="https://github.com/8e8m/mitosis"
 EGIT_REPO_URI="https://github.com/8e8m/mitosis.git"
 
 LICENSE="CC0-1.0"
 SLOT="0"
-IUSE="man"
+IUSE="+man"
 
 # Mitosis invokes Tcl at runtime and uses sha256sum and nproc from coreutils.
 RDEPEND="

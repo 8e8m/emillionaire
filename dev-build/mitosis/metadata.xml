@@ -6,7 +6,7 @@
     <name>Emil Williams</name>
   </maintainer>
   <longdescription lang="en">
-    Mitosis is a TCL-based slop build system designed around terse specification.
+    Mitosis is a suffix-oriented TCL-based slop build system designed around terse specification.
     Currently it's covered in slop, but maybe one day it'll arise from the depths, as well minded software.
   </longdescription>
 </pkgmetadata>
