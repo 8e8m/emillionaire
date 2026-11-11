@@ -21,6 +21,7 @@ src_install() {
     TARGET="${D}/usr" NOMAN=1 sh install.sh
 
     if use man; then
+        rm -f "${D}"/usr/share/man/man1/bake.1.gz
         doman bake.1
     fi
 }
