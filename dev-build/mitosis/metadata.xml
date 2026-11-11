@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>emil@chud.cyou</email>
+    <name>Emil Williams</name>
+  </maintainer>
+  <longdescription lang="en">
+    Mitosis is a TCL-based slop build system designed around terse specification.
+    Currently it's covered in slop, but maybe one day it'll arise from the depths, as well minded software.
+  </longdescription>
+</pkgmetadata>
