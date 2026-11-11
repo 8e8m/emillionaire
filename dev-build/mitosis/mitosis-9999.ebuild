@@ -21,7 +21,7 @@ RDEPEND="
 
 if [[ ${PV} != 9999 ]]; then
 	EGIT_COMMIT="refs/tags/v${PV}"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="amd64 x86"
 fi
 
 src_install() {
