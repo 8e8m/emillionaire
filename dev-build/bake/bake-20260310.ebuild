@@ -18,7 +18,7 @@ IUSE="man"
 DEPEND="sys-devel/flex"
 
 src_install() {
-    TARGET="${D}/usr/local" sh install.sh
+    TARGET="${D}/usr" sh install.sh
 
     if use man; then
         doman bake.1
